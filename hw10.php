@@ -38,7 +38,7 @@ print_r(bcadd($x, $y,2));
 //1c
 function add($a,$b)
 {
-$c=$a+$b;
+$c=$a+$b;ed
 echo $c;
 }
 echo "  <br>\n  Using function to calculate sum of 2  numbers:";
@@ -56,3 +56,4 @@ add(200, 80);
  print_r(bcmul($x, $y));
 
 ?>
+
