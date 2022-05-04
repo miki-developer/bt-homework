@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zid i plocice</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      form {
+        border: 2px solid green;
+        padding: 100px;
+        margin-top: 50px;
+      }
+      label,
+      input,
+      button {
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="zadatak2.php" method="get">
+      <legend>Koliko vam je potrebno plocica da prekrijete zid?</legend>
+      <fieldset>Unesite potrebne podatke</fieldset>
+      <label for="pl">Sirina plocica u cm:</label>
+      <br />
+      <input type="number" name="pl-w" />
+      <br />
+      <label for="pl">Duzina plocica u cm:</label>
+      <br />
+      <input type="number" name="pl-h" />
+      <br />
+      <label for="pl">Sirina zida u cm:</label>
+      <br />
+      <input type="number" name="zid-w" />
+      <br />
+      <label for="pl">Duzina zida u cm:</label>
+      <br />
+      <input type="number" name="zid-h" />
+      <br />
+      <button name="sub">Izracunaj</button>
+    </form>
+  </body>
+</html>
