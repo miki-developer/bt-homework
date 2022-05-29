@@ -1,0 +1,21 @@
+img {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    /* object-fit: contain; */
+}
+ body{
+    background-color:#212529;
+}
+.container{
+    background-color:#212529;;
+
+    border-radius: 10px;
+} 
+
+.background{
+    background-color: #18395aed;
+}
+
+.card{
+    background-color:  #61b0ff;
+}
